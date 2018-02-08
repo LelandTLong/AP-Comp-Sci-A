@@ -10,11 +10,13 @@ public class Fahrenheit
 
 	public void setFahrenheit(double fahren)
 	{
+		fahrenheit = fahren;
 	}
 
 	public double getCelsius()
 	{
 		double celsius = 0.0;
+		celsius = (fahrenheit - 32) * 5/9;
 		//add code to convert fahrenheit to celsius
 		return celsius;
 	}
@@ -22,6 +24,7 @@ public class Fahrenheit
 	public void print()
 	{
 		//this is part of the solution
-		System.out.println(getCelsius());
+		System.out.print("Fahrenheit = " + fahrenheit + ", " + "Celsius = ");
+		System.out.printf("%.2f\n",getCelsius());
 	}
 }
