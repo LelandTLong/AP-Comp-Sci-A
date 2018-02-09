@@ -49,7 +49,8 @@ public class Distance
 
 	public void print( )
 	{
-		System.out.printf("%.3f\n",distance);
+		System.out.print("distance == ");
+		System.out.printf("%.3f",distance);
 
 
 	}

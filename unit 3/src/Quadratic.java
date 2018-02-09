@@ -50,9 +50,9 @@ public class Quadratic
 
 	public void print( )
 	{
-		System.out.print("root one = ");
+		System.out.print("root one :: ");
 		System.out.printf("%.2f\n",rootOne);
-		System.out.print("root two = ");
+		System.out.print("root two :: ");
 		System.out.printf("%.2f\n",rootTwo);
 
 	}

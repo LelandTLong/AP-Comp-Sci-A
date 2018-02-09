@@ -17,17 +17,41 @@ public class Lab03d
 		int y1;
 		int x2;
 		int y2;
-		System.out.println("Enter X");
+		System.out.print("Enter X :: ");
 		x1 = keyboard.nextInt();
-		System.out.println("Enter Y");
+		System.out.print("Enter Y :: ");
 		y1 = keyboard.nextInt();
-		System.out.println("Enter X");
+		System.out.print("Enter X :: ");
 		x2 = keyboard.nextInt();
-		System.out.println("Enter Y");
+		System.out.print("Enter Y :: ");
 		y2 = keyboard.nextInt();
 		Distance One = new Distance(x1,y1,x2,y2);
 		One.calcDistance();
 		One.print();
+		
+		System.out.print("\n\n" + "Enter X :: ");
+		x1 = keyboard.nextInt();
+		System.out.print("Enter Y :: ");
+		y1 = keyboard.nextInt();
+		System.out.print("Enter X :: ");
+		x2 = keyboard.nextInt();
+		System.out.print("Enter Y :: ");
+		y2 = keyboard.nextInt();
+		Distance Two = new Distance(x1,y1,x2,y2);
+		Two.calcDistance();
+		Two.print();
+		
+		System.out.print("\n\n" + "Enter X :: ");
+		x1 = keyboard.nextInt();
+		System.out.print("Enter Y :: ");
+		y1 = keyboard.nextInt();
+		System.out.print("Enter X :: ");
+		x2 = keyboard.nextInt();
+		System.out.print("Enter Y :: ");
+		y2 = keyboard.nextInt();
+		Distance Three = new Distance(x1,y1,x2,y2);
+		Three.calcDistance();
+		Three.print();
 		//add test cases
 		
 		

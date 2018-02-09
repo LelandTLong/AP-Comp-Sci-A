@@ -22,7 +22,7 @@ public class Circle
 
 	public void print()
 	{
-		System.out.print("the area is: ");
+		System.out.print("the area is :: ");
 		System.out.printf("%.4f\n",area);	
 	}
 }

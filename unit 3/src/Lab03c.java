@@ -16,15 +16,36 @@ public class Lab03c
 	int a;
 	int b;
 	int c;
-	System.out.println("Enter A:");
+	System.out.print("Enter A :: ");
 	a = keyboard.nextInt();
-	System.out.println("Enter B:");
+	System.out.print("Enter B :: ");
 	b = keyboard.nextInt();
-	System.out.println("Enter C:");
+	System.out.print("Enter C :: ");
 	c = keyboard.nextInt();
 	Quadratic One = new Quadratic (a,b,c);
 	One.setEquation(a,b,c);
 	One.print();
+	
+	System.out.print("\n" + "Enter A :: ");
+	a = keyboard.nextInt();
+	System.out.print("Enter B :: ");
+	b = keyboard.nextInt();
+	System.out.print("Enter C :: ");
+	c = keyboard.nextInt();
+	Quadratic Two = new Quadratic (a,b,c);
+	Two.setEquation(a,b,c);
+	Two.print();
+	
+	System.out.print("\n" + "Enter A :: ");
+	a = keyboard.nextInt();
+	System.out.print("Enter B :: ");
+	b = keyboard.nextInt();
+	System.out.print("Enter C :: ");
+	c = keyboard.nextInt();
+	Quadratic Three = new Quadratic (a,b,c);
+	Three.setEquation(a,b,c);
+	Three.print();
+	
 	//add test cases
    	
    	

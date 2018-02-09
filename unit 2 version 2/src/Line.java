@@ -36,7 +36,7 @@ public class Line
 
 	public void print( )
 	{
-		System.out.print("The slope is: ");
+		System.out.print("The slope is ");
 		System.out.printf("%.2f\n", slope);
 
 

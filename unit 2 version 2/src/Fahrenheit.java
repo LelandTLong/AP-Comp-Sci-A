@@ -24,7 +24,8 @@ public class Fahrenheit
 	public void print()
 	{
 		//this is part of the solution
-		System.out.print("Fahrenheit = " + fahrenheit + ", " + "Celsius = ");
-		System.out.printf("%.2f\n",getCelsius());
+		System.out.print(fahrenheit + " degrees Fahrenheit == ");
+		System.out.printf("%.2f",getCelsius());
+		System.out.print(" degrees Celsius" + "\n");
 	}
 }
